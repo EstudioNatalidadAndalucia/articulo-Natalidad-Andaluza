@@ -7,19 +7,23 @@
 % for the full guidelines.
 %
 \documentclass{llncs}
+\usepackage[spanish]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{graphicx}
+\usepackage{mathtools}
 
 \begin{document}
 
-\title{Springer LNCS Example Paper}
+\title{Oscilaciones en la Natalidad en Andaluc\'ia 2015}
 %
 \titlerunning{Hamiltonian Mechanics}  % abbreviated title (for running head)
 %                                     also used for the TOC unless
 %                                     \toctitle is used
 %
-\author{Ivar Ekeland\inst{1} \and Roger Temam\inst{2}
-Jeffrey Dean \and David Grove \and Craig Chambers \and Kim~B.~Bruce \and
-Elsa Bertino}
+\author{Maria N Padilla\inst{1} \and Jaime Jim\'enez-Ruiz \inst{2}
+Inma S Garc\'ia \and Laura De la Casa}
 %
+
 \authorrunning{Ivar Ekeland et al.} % abbreviated author list (for running head)
 %
 %%%% list of authors for the TOC (use if author list has to be modified)
@@ -36,6 +40,12 @@ F-91405 Orsay Cedex, France}
 
 \maketitle              % typeset the title of the contribution
 
+\begin{figure}[h!]
+\centering
+\includegraphics[width=10cm]{bebe-2.jpg}
+\caption{foto bebe}
+\end{figure}
+
 \begin{abstract}
 The abstract should summarize the contents of the paper
 using at least 70 and at most 150 words. It will be set in 9-point
@@ -44,7 +54,7 @@ There will be two blank lines before and after the Abstract. \dots
 \keywords{computational geometry, graph theory, Hamilton cycles}
 \end{abstract}
 %
-\section{Fixed-Period Problems: The Sublinear Case}
+\section{Introducci\'on}
 %
 With this chapter, the preliminaries are over, and we begin the search
 for periodic solutions to Hamiltonian systems. All this will be done in
@@ -55,6 +65,12 @@ the convex case; that is, we shall study the boundary-value problem
 \end{eqnarray*}
 with $H(t,\cdot)$ a convex function of $x$, going to $+\infty$ when
 $\left\|x\right\| \to \infty$.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=5cm]{sonrisa-bebe2.jpg}
+\caption{foto bebe}
+\end{figure}
 
 %
 \subsection{Autonomous Systems}
@@ -272,7 +288,7 @@ This would contradict (\ref{eq:five}), and thus cannot happen.\qed
 \end{proof}
 %
 \paragraph{Notes and Comments.}
-The results in this section are a
+The results in this section\cite{Mata-Perez2017Nitro-fattyMetabolism.} are a
 refined version of \cite{clar:eke};
 the minimality result of Proposition
 14 was the first of its kind.
@@ -342,7 +358,13 @@ Consider the system:
 \end{equation}
 where the Hamiltonian $H$ is
 $\left(0,b_{\infty}\right)$-subquadratic, and the
-forcing term is a distribution on the circle:
+forcing term is a\textbf{ distribution} on the\textit{ circle}:
+
+\begin{itemize}
+\item Aspecto importante
+\end{itemize}
+
+
 \begin{equation}
   f = \frac{d}{dt} F + f_{o}\ \ \ \ \
   {\rm with}\ \ F\in L^{2} \left(\bbbr / T\bbbz; \bbbr^{2n}\right)\ ,
@@ -421,6 +443,7 @@ Sect.~5.2 of this article.
 %
 \begin{thebibliography}{5}
 %
+
 \bibitem {clar:eke}
 Clarke, F., Ekeland, I.:
 Nonlinear oscillations and
